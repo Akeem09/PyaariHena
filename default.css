@@ -77,3 +77,36 @@ html,body{
 @keyframes love {
   0%{top:110%}
 }
+
+/* Background layers */
+#header-plugin,
+.bg_heart {
+    position: fixed;          /* stays behind */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;     /* prevents blocking clicks */
+}
+
+/* Optional: different depths */
+#header-plugin {
+    z-index: 1;
+}
+
+.bg_heart {
+    z-index: 2;
+}
+
+/* Foreground content */
+#mainDiv {
+    position: relative;       /* required for z-index */
+    z-index: 10;              /* higher than backgrounds */
+}
+
+/* Optional polish */
+#content {
+    max-width: 900px;
+    margin: auto;
+}
