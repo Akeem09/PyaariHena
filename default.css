@@ -5,7 +5,7 @@
 #elapseClock{text-align:right;font-size:18px;margin-top:10px;margin-bottom:10px}
 #words{font-family:"sans-serif";width:500px;font-size:24px;color:#666; margin-top:100px}
 #messages{display:none;text-align: center;font-size: 30px}
-#elapseClock .digit{font-family:"digit";font-size:40px;text-align: center; margin-top:90px}
+#elapseClock .digit{font-family:"digit";font-size:40px;text-align: center; margin-top:200px}
 #loveu{padding:5px;font-size:20px;margin-top:80px;margin-right: 80px;text-align:right;display:none}
 #loveu .signature{margin-top:10px;font-size:18px;font-style:italic}
 #clickSound{display:none}
